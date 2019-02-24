@@ -25,11 +25,113 @@
 /* ===================================== SAMPLE CALCULATION ===================================== */
 
 .become_a_partner_sample_calculation_body {
+  width: 100%;
+  margin: 2vmin;
+  padding: 2vmin;
+  border-radius: 2vmin;
+  background-color: rgb(255, 235, 235);
+}
+
+.become_a_partner_sample_calculation_heading_body {
+  width: 100%;
   padding: 4vmin;
 }
 
 .become_a_partner_sample_calculation_heading {
   font-family: "Russo One", sans-serif;
+  font-size: 4vmin;
+  text-align: justify;
+  letter-spacing: 0.2vmin;
+  color: rgb(170, 10, 10);
+}
+
+.become_a_partner_sample_calculation_contents {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.become_a_partner_sample_calculation_content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.become_a_partner_sample_calculation_content_date {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1vmin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vmin;
+  font-weight: bold;
+  letter-spacing: 0.2vmin;
+  text-align: right;
+  color: rgb(80, 80, 80);
+}
+
+.become_a_partner_sample_calculation_content_value {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vmin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vmin;
+  letter-spacing: 0.2vmin;
+  color: rgb(100, 100, 100);
+}
+
+.become_a_partner_sample_calculation_summary {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 4vmin;
+}
+
+.become_a_partner_sample_calculation_result {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.become_a_partner_sample_calculation_result_label {
+  width: 45%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 1vmin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vmin;
+  font-weight: bold;
+  letter-spacing: 0.2vmin;
+  text-align: right;
+  color: rgb(80, 80, 80);
+}
+
+.become_a_partner_sample_calculation_result_value {
+  width: 55%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 1vmin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3vmin;
+  letter-spacing: 0.2vmin;
+  color: rgb(100, 100, 100);
+}
+
+.become_a_partner_sample_calculation_details {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 2vmin;
+  font-family: "Open Sans", sans-serif;
+  font-size: 3.4vmin;
+  letter-spacing: 0.2vmin;
+  text-align: justify;
+  color: rgb(100, 100, 100);
 }
 
 /* ======================================= TEMPORARY CSS ======================================== */
@@ -77,6 +179,57 @@
     letter-spacing: 0.15vmin;
   }
 
+  /* ===================================== SAMPLE CALCULATION ===================================== */
+
+  .become_a_partner_sample_calculation_body {
+    margin: 1.5vmin;
+    padding: 1.5vmin;
+    border-radius: 1.5vmin;
+  }
+
+  .become_a_partner_sample_calculation_heading_body {
+    padding: 3vmin;
+  }
+
+  .become_a_partner_sample_calculation_heading {
+    font-size: 3vmin;
+    letter-spacing: 0.15vmin;
+  }
+
+  .become_a_partner_sample_calculation_content_date {
+    padding: 0.75vmin;
+    font-size: 2.25vmin;
+    letter-spacing: 0.15vmin;
+  }
+
+  .become_a_partner_sample_calculation_content_value {
+    padding: 0.75vmin;
+    font-size: 2.25vmin;
+    letter-spacing: 0.15vmin;
+  }
+
+  .become_a_partner_sample_calculation_summary {
+    padding: 3vmin;
+  }
+
+  .become_a_partner_sample_calculation_result_label {
+    padding: 0.75vmin;
+    font-size: 2.25vmin;
+    letter-spacing: 0.15vmin;
+  }
+
+  .become_a_partner_sample_calculation_result_value {
+    padding: 0.75vmin;
+    font-size: 2.25vmin;
+    letter-spacing: 0.15vmin;
+  }
+
+  .become_a_partner_sample_calculation_details {
+    padding: 1.5vmin;
+    font-size: 2.55vmin;
+    letter-spacing: 0.15vmin;
+  }
+
   /* ======================================= TEMPORARY CSS ======================================== */
 
   .temporary_partnership_button_handler_modal_content_body {
@@ -101,6 +254,57 @@
 
   .request_partnership_message {
     font-size: 2.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  /* ===================================== SAMPLE CALCULATION ===================================== */
+
+  .become_a_partner_sample_calculation_body {
+    margin: 1vmin;
+    padding: 1vmin;
+    border-radius: 1vmin;
+  }
+
+  .become_a_partner_sample_calculation_heading_body {
+    padding: 2vmin;
+  }
+
+  .become_a_partner_sample_calculation_heading {
+    font-size: 2vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  .become_a_partner_sample_calculation_content_date {
+    padding: 0.5vmin;
+    font-size: 1.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  .become_a_partner_sample_calculation_content_value {
+    padding: 0.5vmin;
+    font-size: 1.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  .become_a_partner_sample_calculation_summary {
+    padding: 2vmin;
+  }
+
+  .become_a_partner_sample_calculation_result_label {
+    padding: 0.5vmin;
+    font-size: 1.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  .become_a_partner_sample_calculation_result_value {
+    padding: 0.5vmin;
+    font-size: 1.5vmin;
+    letter-spacing: 0.1vmin;
+  }
+
+  .become_a_partner_sample_calculation_details {
+    padding: 1vmin;
+    font-size: 1.7vmin;
     letter-spacing: 0.1vmin;
   }
 
